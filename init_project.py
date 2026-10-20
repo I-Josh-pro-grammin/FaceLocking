@@ -1,4 +1,5 @@
 """Initialize FaceX and download checksum-verified upstream models on request."""
+import utils.session
 import argparse
 import hashlib
 from pathlib import Path
